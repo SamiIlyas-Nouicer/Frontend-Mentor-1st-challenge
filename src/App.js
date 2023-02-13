@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./Home";
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function App() {
   return (
     <div className="App">
      
+     <div className="container"><Home /></div>
      
     </div>
   );
